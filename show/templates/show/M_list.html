@@ -1,0 +1,7 @@
+{% for M in object_list %}
+{% if M.dep_type ==  %}
+<a href="school_list/">{{M.department}}</a><br>
+{% elif M.dep_type == 2 %} 
+<a href="school_list/">{{M.department}}</a><br>
+{% endif %}
+{% endfor %}
